@@ -1,0 +1,48 @@
+.logo {
+    margin-right: 2px;
+    display: flex;
+    font-family: 'monospace';
+    font-weight: 700;
+    color: inherit;
+    text-decoration: none;
+}
+
+.icon_logo {
+    display: flex;
+    align-items: center;
+}
+.menuicon-mobile {
+    display: none;
+}
+.toolbar-header {
+    justify-content: space-between;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    flex-basis: 40%;
+    justify-content: space-evenly;
+}
+
+.menulink-item {
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    display: block;
+}
+
+.basic-menu {
+    
+}
+@media screen and (min-width:500px) {
+    .icon-logo {
+        display: flex;
+    }
+
+    .menuicon-mobile {
+        flex-grow: 1;
+        display: flex;
+    }
+}
